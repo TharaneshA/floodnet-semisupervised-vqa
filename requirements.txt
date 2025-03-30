@@ -1,0 +1,21 @@
+# Requirements for floodnet-semisupervised-vqa project
+
+# Core dependencies
+tensorflow==2.10.0
+pillow==9.3.0
+numpy==1.23.5
+opencv-python==4.6.0.66
+tqdm==4.64.1
+
+# Jupyter notebooks
+jupyter==1.0.0
+notebook==6.5.2
+
+# Data processing
+pandas==1.5.2
+matplotlib==3.6.2
+
+# For VQA capabilities
+transformers==4.24.0
+torch==1.13.0
+torchvision==0.14.0
