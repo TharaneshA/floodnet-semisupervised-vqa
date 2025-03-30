@@ -65,7 +65,7 @@ Extends the model to answer specific questions about flood imagery:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/floodnet-semisupervised-vqa.git
+git clone https://github.com/TharaneshA/floodnet-semisupervised-vqa.git
 cd floodnet-semisupervised-vqa
 
 # Install dependencies
