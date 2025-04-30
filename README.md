@@ -35,24 +35,35 @@ FloodNet_Challenge_Track1/
 ### 1. Data Preprocessing (prep.ipynb)
 
 The preprocessing pipeline includes:
-- Image resizing to 224x224 pixels using Lanczos resampling
+- Image cropping from 4000px to 3000px width
+- Image resizing to 512x512 pixels
 - Dataset organization into training, validation, and test sets
 - Creation of metadata with dataset statistics
 - Generation of sample images for verification
 
-### 2. Flood Classification (classification.ipynb)
+### 2. Semantic Segmentation and Classification
 
-Implements a binary classification model to detect the presence of flooding in images:
-- Semi-supervised learning approach leveraging unlabeled data
-- Transfer learning with pre-trained models
-- Performance evaluation on validation and test sets
+Implements a dual-model approach for flood analysis:
+- DeepLabV3+ model for semantic segmentation of flood regions
+- EfficientNet for binary flood classification
+- Semi-supervised learning leveraging unlabeled data
+- Performance evaluation metrics and visualization
 
 ### 3. Visual Question Answering (VQA)
 
-Extends the model to answer specific questions about flood imagery:
-- Integration with natural language processing
-- Multi-modal learning combining image features and text queries
+Custom VQA architecture for flood image analysis:
+- ResNet18 backbone for image feature extraction
+- LSTM network for question encoding
+- Multi-modal fusion of image and text features
 - Capability to answer questions about flood extent, damage assessment, etc.
+
+### 4. Results and Visualization
+
+Comprehensive output analysis:
+- Segmentation masks highlighting flood regions
+- Classification confidence scores
+- Sample VQA responses with attention maps
+- Performance metrics across all components
 
 ## 🚀 Getting Started
 
