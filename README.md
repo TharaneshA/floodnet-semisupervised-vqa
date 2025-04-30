@@ -61,9 +61,13 @@ Custom VQA architecture for flood image analysis:
 
 Comprehensive output analysis:
 - Segmentation masks highlighting flood regions
+![image](https://github.com/user-attachments/assets/4c463e58-aaa2-4e71-b87d-3ad14107cb4e)
+
 - Classification confidence scores
+![image](https://github.com/user-attachments/assets/d79ce57e-cc09-4016-a153-5bbb8ba56dc9)
+
 - Sample VQA responses with attention maps
-- Performance metrics across all components
+![image](https://github.com/user-attachments/assets/f3cccf6e-9a6d-4179-9da9-e9dfdcd5f274)
 
 ## 🚀 Getting Started
 
